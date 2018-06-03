@@ -9,7 +9,7 @@
 #  The current code works on Ubuntu. Pull requests welcome for other operating systems.
 #
 USERNAME=`whoami`
-SD_CARD_PATH="/media/$USERNAME/NIKON\ D5300"
+SD_CARD_PATH="/media/$USERNAME/NIKON D5300"
 
 #
 # Download the A-GPS file.
@@ -26,5 +26,5 @@ wget -O NML_28A.ee "http://crossgate.nikonimglib.com/dsd_redirect/redirect.do?P=
 # Note:
 #  It will overwrite any previously present file with the same name.
 #
-cp NML_28A.ee $SD_CARD_PATH/Nikon/
+mv NML_28A.ee "$SD_CARD_PATH/Nikon/"
 
