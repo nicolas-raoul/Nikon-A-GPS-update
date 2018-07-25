@@ -1,0 +1,13 @@
+#
+# Path to your SD card.
+#
+# Note:
+#  It depends on your operating system, and on how you formatted your SD card, so adapt the lines below as appropriate.
+#  The current code works on Ubuntu. Pull requests welcome for other operating systems.
+#
+USERNAME=`whoami`
+SD_CARD_PATH="/media/$USERNAME/NIKON D5300"
+
+
+# Path to the root of your pictures folder. Only needed if you run download-pictures-and-update-a-gps-data.sh
+PICTURES_FOLDER="/home/$USERNAME/Pictures"

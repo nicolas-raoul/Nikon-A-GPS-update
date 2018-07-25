@@ -2,14 +2,9 @@
 # Download the Nikon A-GPS file and puts it on the SD card.
 
 #
-# Path to your SD card.
+# Load settings.
 #
-# Note:
-#  It depends on your operating system, and on how you formatted your SD card, so adapt the lines below as appropriate.
-#  The current code works on Ubuntu. Pull requests welcome for other operating systems.
-#
-USERNAME=`whoami`
-SD_CARD_PATH="/media/$USERNAME/NIKON D5300"
+source settings.source
 
 #
 # Download the A-GPS file.
@@ -21,6 +16,7 @@ SD_CARD_PATH="/media/$USERNAME/NIKON D5300"
 #
 wget -O NML_28A.ee "http://crossgate.nikonimglib.com/dsd_redirect/redirect.do?P=F9JnZ07&R=SLOnf25&L=uTmf400&O=CVMiG00"
 
+#
 # Copy the A-GPS file to the SD card.
 #
 # Note:
