@@ -4,6 +4,7 @@
 
 1. Download the ZIP or clone this repository
 2. Make the .sh files executable
+3. Edit the `settings.source` file and make sure everything is configured as you want
 
 ## Usage
 
